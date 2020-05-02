@@ -20,19 +20,25 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         super.viewDidLoad()
         
         sceneView.delegate = self
-        // Load the "Box" scene from the "Experience" Reality File
-//        let boxAnchor = try! Experience.loadBox()
-//        
-//        // Add the box anchor to the scene
-//        arView.scene.anchors.append(boxAnchor)
+        sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints]
+
         
-//        sceneView.scene = SCNScene(named: "art.scnassets/StickfigureBODY.scn")!
-//
         let configuration = ARWorldTrackingConfiguration()
         configuration.planeDetection = .horizontal
+        
+        let scene = SCNScene(named: "StickfigureBODY.scn", inDirectory: "art.scnassets")!
+        
+        for child in scene.rootNode.childNodes {
+            virtualObjectNode.addChildNode(child)
+        }
 
         sceneView.session.run(configuration)
     }
+    
+    private lazy var virtualObjectNode: SCNNode = {
+        let v = SCNNode()
+        return v
+    }()
     
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         guard let planeAnchor = anchor as? ARPlaneAnchor else {
@@ -40,7 +46,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         }
         
         let geometry = SCNPlane(width: CGFloat(planeAnchor.extent.x), height: CGFloat(planeAnchor.extent.z))
-        geometry.materials.first?.diffuse.contents = UIColor.yellow
+        geometry.materials.first?.diffuse.contents = UIColor.white
         
         let planeNode = SCNNode(geometry: geometry)
         
@@ -48,6 +54,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         DispatchQueue.main.async {
             node.addChildNode(planeNode)
+            node.addChildNode(self.virtualObjectNode)
         }
+        
     }
 }
