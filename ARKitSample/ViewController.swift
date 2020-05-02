@@ -15,7 +15,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     @IBOutlet var arView: ARView!
     @IBOutlet var sceneView: ARSCNView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,6 +32,30 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         }
 
         sceneView.session.run(configuration)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        guard let touch = touches.first else {
+            return
+        }
+        // スクリーンを座標を取得
+        let pos = touch.location(in: sceneView)
+         
+        // Viewのヒットを、sceneViewに入れてる
+        let results = sceneView.hitTest(pos, types: .existingPlaneUsingExtent)
+        
+        if let result = results.first {
+            guard let anchor = result.anchor else {
+                return
+            }
+            guard let node = sceneView.node(for: anchor) else {
+                return
+            }
+            node.addChildNode(self.virtualObjectNode)
+        }
+        
+        
     }
     
     private lazy var virtualObjectNode: SCNNode = {
@@ -53,8 +76,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         planeNode.transform = SCNMatrix4MakeRotation(-Float.pi / 2.0, 1.0, 0, 0)
         
         DispatchQueue.main.async {
-            node.addChildNode(planeNode)
-            node.addChildNode(self.virtualObjectNode)
+//            node.addChildNode(planeNode)
+           // node.addChildNode(self.virtualObjectNode)
         }
         
     }
