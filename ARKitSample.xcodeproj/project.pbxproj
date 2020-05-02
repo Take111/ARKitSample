@@ -15,6 +15,21 @@
 		CFB3FC42245D533E005171FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FC40245D533E005171FF /* LaunchScreen.storyboard */; };
 		CFB3FC4D245D533E005171FF /* ARKitSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3FC4C245D533E005171FF /* ARKitSampleTests.swift */; };
 		CFB3FC58245D533E005171FF /* ARKitSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3FC57245D533E005171FF /* ARKitSampleUITests.swift */; };
+		CFB3FC98245D5931005171FF /* StickfigureBODY.OBJ in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FC89245D5931005171FF /* StickfigureBODY.OBJ */; };
+		CFB3FC99245D5931005171FF /* StickFigurea.3DS in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FC8A245D5931005171FF /* StickFigurea.3DS */; };
+		CFB3FC9A245D5931005171FF /* zbrushstigur_00000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FC8B245D5931005171FF /* zbrushstigur_00000.jpg */; };
+		CFB3FC9C245D5931005171FF /* RiggedStickFigure.max in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FC8D245D5931005171FF /* RiggedStickFigure.max */; };
+		CFB3FC9D245D5931005171FF /* StickFigurea.mtl in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FC8E245D5931005171FF /* StickFigurea.mtl */; };
+		CFB3FC9E245D5931005171FF /* zbrushstickfigur_bumpds_00000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FC8F245D5931005171FF /* zbrushstickfigur_bumpds_00000.jpg */; };
+		CFB3FC9F245D5931005171FF /* zbrushstickfigur.BMP in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FC90245D5931005171FF /* zbrushstickfigur.BMP */; };
+		CFB3FCA0245D5931005171FF /* StickTexture.zip in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FC91245D5931005171FF /* StickTexture.zip */; };
+		CFB3FCA1245D5931005171FF /* zbrushstickfigur_00000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FC92245D5931005171FF /* zbrushstickfigur_00000.jpg */; };
+		CFB3FCA2245D5931005171FF /* zbrushstickfigur.mtl in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FC93245D5931005171FF /* zbrushstickfigur.mtl */; };
+		CFB3FCA3245D5931005171FF /* RiggedStickFiguretextscene.max in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FC94245D5931005171FF /* RiggedStickFiguretextscene.max */; };
+		CFB3FCA4245D5931005171FF /* StickFigurea.obj in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FC95245D5931005171FF /* StickFigurea.obj */; };
+		CFB3FCA5245D5931005171FF /* StickFigurea.FBX in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FC96245D5931005171FF /* StickFigurea.FBX */; };
+		CFB3FCA6245D5931005171FF /* StickfigureCLOTHES.OBJ in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FC97245D5931005171FF /* StickfigureCLOTHES.OBJ */; };
+		CFB3FCA8245D5995005171FF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB3FCA7245D5995005171FF /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,21 @@
 		CFB3FC53245D533E005171FF /* ARKitSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB3FC57245D533E005171FF /* ARKitSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitSampleUITests.swift; sourceTree = "<group>"; };
 		CFB3FC59245D533F005171FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB3FC89245D5931005171FF /* StickfigureBODY.OBJ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StickfigureBODY.OBJ; sourceTree = "<group>"; };
+		CFB3FC8A245D5931005171FF /* StickFigurea.3DS */ = {isa = PBXFileReference; lastKnownFileType = file; path = StickFigurea.3DS; sourceTree = "<group>"; };
+		CFB3FC8B245D5931005171FF /* zbrushstigur_00000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zbrushstigur_00000.jpg; sourceTree = "<group>"; };
+		CFB3FC8D245D5931005171FF /* RiggedStickFigure.max */ = {isa = PBXFileReference; lastKnownFileType = file; path = RiggedStickFigure.max; sourceTree = "<group>"; };
+		CFB3FC8E245D5931005171FF /* StickFigurea.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StickFigurea.mtl; sourceTree = "<group>"; };
+		CFB3FC8F245D5931005171FF /* zbrushstickfigur_bumpds_00000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zbrushstickfigur_bumpds_00000.jpg; sourceTree = "<group>"; };
+		CFB3FC90245D5931005171FF /* zbrushstickfigur.BMP */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = zbrushstickfigur.BMP; sourceTree = "<group>"; };
+		CFB3FC91245D5931005171FF /* StickTexture.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = StickTexture.zip; sourceTree = "<group>"; };
+		CFB3FC92245D5931005171FF /* zbrushstickfigur_00000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zbrushstickfigur_00000.jpg; sourceTree = "<group>"; };
+		CFB3FC93245D5931005171FF /* zbrushstickfigur.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zbrushstickfigur.mtl; sourceTree = "<group>"; };
+		CFB3FC94245D5931005171FF /* RiggedStickFiguretextscene.max */ = {isa = PBXFileReference; lastKnownFileType = file; path = RiggedStickFiguretextscene.max; sourceTree = "<group>"; };
+		CFB3FC95245D5931005171FF /* StickFigurea.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StickFigurea.obj; sourceTree = "<group>"; };
+		CFB3FC96245D5931005171FF /* StickFigurea.FBX */ = {isa = PBXFileReference; lastKnownFileType = file; path = StickFigurea.FBX; sourceTree = "<group>"; };
+		CFB3FC97245D5931005171FF /* StickfigureCLOTHES.OBJ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StickfigureCLOTHES.OBJ; sourceTree = "<group>"; };
+		CFB3FCA7245D5995005171FF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +129,7 @@
 		CFB3FC34245D533D005171FF /* ARKitSample */ = {
 			isa = PBXGroup;
 			children = (
+				CFB3FC87245D58AC005171FF /* arAssets.scnassets */,
 				CFB3FC35245D533D005171FF /* AppDelegate.swift */,
 				CFB3FC37245D533D005171FF /* ViewController.swift */,
 				CFB3FC39245D533D005171FF /* Experience.rcproject */,
@@ -106,6 +137,7 @@
 				CFB3FC3E245D533E005171FF /* Assets.xcassets */,
 				CFB3FC40245D533E005171FF /* LaunchScreen.storyboard */,
 				CFB3FC43245D533E005171FF /* Info.plist */,
+				CFB3FCA7245D5995005171FF /* art.scnassets */,
 			);
 			path = ARKitSample;
 			sourceTree = "<group>";
@@ -126,6 +158,35 @@
 				CFB3FC59245D533F005171FF /* Info.plist */,
 			);
 			path = ARKitSampleUITests;
+			sourceTree = "<group>";
+		};
+		CFB3FC87245D58AC005171FF /* arAssets.scnassets */ = {
+			isa = PBXGroup;
+			children = (
+				CFB3FC88245D5931005171FF /* Man */,
+			);
+			path = arAssets.scnassets;
+			sourceTree = "<group>";
+		};
+		CFB3FC88245D5931005171FF /* Man */ = {
+			isa = PBXGroup;
+			children = (
+				CFB3FC89245D5931005171FF /* StickfigureBODY.OBJ */,
+				CFB3FC8A245D5931005171FF /* StickFigurea.3DS */,
+				CFB3FC8B245D5931005171FF /* zbrushstigur_00000.jpg */,
+				CFB3FC8D245D5931005171FF /* RiggedStickFigure.max */,
+				CFB3FC8E245D5931005171FF /* StickFigurea.mtl */,
+				CFB3FC8F245D5931005171FF /* zbrushstickfigur_bumpds_00000.jpg */,
+				CFB3FC90245D5931005171FF /* zbrushstickfigur.BMP */,
+				CFB3FC91245D5931005171FF /* StickTexture.zip */,
+				CFB3FC92245D5931005171FF /* zbrushstickfigur_00000.jpg */,
+				CFB3FC93245D5931005171FF /* zbrushstickfigur.mtl */,
+				CFB3FC94245D5931005171FF /* RiggedStickFiguretextscene.max */,
+				CFB3FC95245D5931005171FF /* StickFigurea.obj */,
+				CFB3FC96245D5931005171FF /* StickFigurea.FBX */,
+				CFB3FC97245D5931005171FF /* StickfigureCLOTHES.OBJ */,
+			);
+			path = Man;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +293,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFB3FCA6245D5931005171FF /* StickfigureCLOTHES.OBJ in Resources */,
+				CFB3FCA3245D5931005171FF /* RiggedStickFiguretextscene.max in Resources */,
 				CFB3FC42245D533E005171FF /* LaunchScreen.storyboard in Resources */,
+				CFB3FC9A245D5931005171FF /* zbrushstigur_00000.jpg in Resources */,
+				CFB3FCA0245D5931005171FF /* StickTexture.zip in Resources */,
 				CFB3FC3F245D533E005171FF /* Assets.xcassets in Resources */,
+				CFB3FCA4245D5931005171FF /* StickFigurea.obj in Resources */,
+				CFB3FCA1245D5931005171FF /* zbrushstickfigur_00000.jpg in Resources */,
+				CFB3FC9F245D5931005171FF /* zbrushstickfigur.BMP in Resources */,
+				CFB3FC9D245D5931005171FF /* StickFigurea.mtl in Resources */,
+				CFB3FC9C245D5931005171FF /* RiggedStickFigure.max in Resources */,
+				CFB3FCA8245D5995005171FF /* art.scnassets in Resources */,
+				CFB3FCA2245D5931005171FF /* zbrushstickfigur.mtl in Resources */,
+				CFB3FC99245D5931005171FF /* StickFigurea.3DS in Resources */,
+				CFB3FC98245D5931005171FF /* StickfigureBODY.OBJ in Resources */,
 				CFB3FC3D245D533D005171FF /* Main.storyboard in Resources */,
+				CFB3FC9E245D5931005171FF /* zbrushstickfigur_bumpds_00000.jpg in Resources */,
+				CFB3FCA5245D5931005171FF /* StickFigurea.FBX in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
